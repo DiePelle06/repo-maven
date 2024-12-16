@@ -23,4 +23,14 @@ public class TestCalcolatrice
 		
 		Assert.assertEquals(12, res, 0);
 	}
+	
+	@Test
+	public void testSommaNegativo() 
+	{
+		Calcolatrice c = new Calcolatrice();
+		
+		double res = c.somma(10,-5);
+		
+		Assert.assertEquals(5, res, 0);
+	}
 }
