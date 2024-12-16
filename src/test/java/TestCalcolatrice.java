@@ -2,10 +2,10 @@ import org.junit.Assert;
 
 import org.junit.Test;
 
-class TestCalcolatrice 
+public class TestCalcolatrice 
 {
 	@Test
-	void testSomma() 
+	public void testSomma() 
 	{
 		Calcolatrice c = new Calcolatrice();
 		
@@ -15,7 +15,7 @@ class TestCalcolatrice
 	}
 	
 	@Test
-	void testSomma2() 
+	public void testSomma2() 
 	{
 		Calcolatrice c = new Calcolatrice();
 		
