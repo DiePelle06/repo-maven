@@ -5,6 +5,18 @@ public class Calcolatrice
 		double s = 0;
 		for(double addendo : addendi)
 		{
+			if(addendo < 0)
+			{
+				System.out.println("val < 0");
+			}
+			if(addendo == 0)
+			{
+				System.out.println("val == 0");
+			}
+			if(addendo > 0)
+			{
+				System.out.println("val > 0");
+			}
 			s = s + addendo;
 		}
 		
