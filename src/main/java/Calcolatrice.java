@@ -1,5 +1,5 @@
 public class Calcolatrice 
-{
+{	
 	public double somma(double...addendi)
 	{
 		double s = 0;
