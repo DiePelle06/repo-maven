@@ -42,7 +42,7 @@ class TestCalcolatrice
 	@Test
 	void testSomma5() 
 	{
-		double res = c.somma(Double.PRECISION,-1);
+		double res = c.somma(53,-1);
 		
 		assertEquals(52, res, 0);
 	}
